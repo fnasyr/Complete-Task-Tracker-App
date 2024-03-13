@@ -1,0 +1,42 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8e9e9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #a1b5eb;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(56, 15, 151, 0.1);
+}
+
+form {
+    margin-bottom: 40px;
+    margin-bottom: 20%;
+    font-style: bold;
+    margin: center;
+    color: rgb(14, 129, 223);
+    align-items: center;
+}
+
+input[type=text] {
+    background-color: rgb(196, 221, 228);
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    width: 50%;
+    padding: 8px 2px;
+    margin: 12px 0;
+    box-sizing: border-box;
+}
+
+label {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
